@@ -14,9 +14,8 @@ Options -Indexes
   ExpiresByType text/html "access plus 0 seconds"
 </IfModule>
 
-# Once https://www.velectico.com opens without a warning, remove the # from the
-# four lines below so every visitor lands on https://www.velectico.com
-# RewriteEngine On
-# RewriteCond %{HTTPS} off [OR]
-# RewriteCond %{HTTP_HOST} !^www\. [NC]
-# RewriteRule ^(.*)$ https://www.velectico.com/$1 [L,R=301]
+# Sends every visitor to https://www.velectico.com
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.velectico.com/$1 [L,R=301]
