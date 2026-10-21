@@ -15,8 +15,8 @@ export default function Home() {
             <h1>Software that runs real businesses, built and looked after by one team.</h1>
             <p>
               We&apos;re Velectico, a software company in Kolkata. Since {site.founded} we&apos;ve built platforms for
-              clients in the US, the Gulf and Africa, and our own shop software now runs {site.businessesOnOurSoftware} businesses
-              in India. Agencies in the UK, Australia and New Zealand use us to build under their name.
+              clients in the US, the Gulf and Africa, and our own shop software now runs multiple
+              businesses in India. Agencies in the UK, Australia and New Zealand use us to build under their name.
             </p>
             <div className="actions">
               <Link className="btn btn-white" href="/contact/">Book a 20-minute call</Link>

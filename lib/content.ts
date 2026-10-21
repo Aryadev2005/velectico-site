@@ -19,7 +19,6 @@ export const site = {
     country: "India",
   },
   founded: 2018,
-  businessesOnOurSoftware: 23,
   description:
     "Velectico is a software company in Kolkata. We build and run software for businesses, and build for agencies in the UK, Australia and New Zealand under their name.",
 };

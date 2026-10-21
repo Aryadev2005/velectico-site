@@ -52,8 +52,8 @@ export default function About() {
             </p>
             <p>
               Today we work in three ways. We build for agencies abroad, under their name. We build platforms and business
-              systems for companies directly. And we make our own software for Indian shops, which {site.businessesOnOurSoftware} businesses
-              use every day.
+              systems for companies directly. And we make our own software for Indian shops, which multiple
+              businesses use every day.
             </p>
             <h2>How we work</h2>
             <p>
@@ -64,7 +64,7 @@ export default function About() {
           </div>
           <div className="facts" style={{ marginTop: 64 }}>
             <div><b>Since {site.founded}</b><span>Building and maintaining software for clients</span></div>
-            <div><b>{site.businessesOnOurSoftware} businesses</b><span>Run their shops on our own software</span></div>
+            <div><b>Our own products</b><span>Multiple businesses run their shops on them</span></div>
             <div><b>Four regions</b><span>Clients in the US, the Gulf, Africa and India</span></div>
           </div>
         </div>
